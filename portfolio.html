@@ -11,23 +11,29 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header class="header">
-      <nav>
-        <a href="./index.html">WebStudio</a>
+      <nav class="nav">
+        <a class="logo link" href="./index.html"><span class="accent">Web</span>Studio</a>
 
-        <ul>
-          <li><a href="./index.html">Студия</a></li>
-          <li><a href="./portfolio.html">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+        <ul class="list">
+          <li><a class="nav-menu-link link" href="./index.html">Студия</a></li>
+          <li><a class="nav-menu-link link current" href="./portfolio.html">Портфолио</a></li>
+          <li><a class="nav-menu-link link" href="">Контакты</a></li>
         </ul>
       </nav>
 
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="list">
+        <li>
+          <a class="nav-menu-link contact-link link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a class="nav-menu-link contact-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+        </li>
       </ul>
     </header>
     <!-- /.header -->
@@ -57,96 +63,56 @@
         <ul class="portfolio-items">
           <li class="portfolio-item">
             <a href="" class="portfolio-link">
-              <img
-                src="./images/portfolio/laptop.jpg"
-                alt="ноутбук"
-                width="370"
-                height="294"
-              />
+              <img src="./images/portfolio/laptop.jpg" alt="ноутбук" width="370" height="294" />
               <h2 class="portfolio-title">Технокряк</h2>
               <p class="portfolio-content">Веб-сайт</p>
             </a>
           </li>
           <li>
             <a href="" class="portfolio-link">
-              <img
-                src="./images/portfolio/basketball.jpg"
-                alt="ноутбук"
-                width="370"
-                height="294"
-              />
+              <img src="./images/portfolio/basketball.jpg" alt="ноутбук" width="370" height="294" />
               <h2 class="portfolio-title">Постер New Orlean vs Golden Star</h2>
               <p class="portfolio-content">Дизайн</p>
             </a>
           </li>
           <li>
             <a href="" class="portfolio-link">
-              <img
-                src="./images/portfolio/seafood.jpg"
-                alt="ноутбук"
-                width="370"
-                height="294"
-              />
+              <img src="./images/portfolio/seafood.jpg" alt="ноутбук" width="370" height="294" />
               <h2 class="portfolio-title">Ресторан Seafood</h2>
               <p class="portfolio-content">Приложение</p>
             </a>
           </li>
           <li>
             <a href="" class="portfolio-link">
-              <img
-                src="./images/portfolio/earphones.jpg"
-                alt="ноутбук"
-                width="370"
-                height="294"
-              />
+              <img src="./images/portfolio/earphones.jpg" alt="ноутбук" width="370" height="294" />
               <h2 class="portfolio-title">Проект Prime</h2>
               <p class="portfolio-content">Маркетинг</p>
             </a>
           </li>
           <li>
             <a href="" class="portfolio-link">
-              <img
-                src="./images/portfolio/boxes.jpg"
-                alt="ноутбук"
-                width="370"
-                height="294"
-              />
+              <img src="./images/portfolio/boxes.jpg" alt="ноутбук" width="370" height="294" />
               <h2 class="portfolio-title">Проект Boxes</h2>
               <p class="portfolio-content">Приложение</p>
             </a>
           </li>
           <li>
             <a href="" class="portfolio-link">
-              <img
-                src="./images/portfolio/monitor.jpg"
-                alt="ноутбук"
-                width="370"
-                height="294"
-              />
+              <img src="./images/portfolio/monitor.jpg" alt="ноутбук" width="370" height="294" />
               <h2 class="portfolio-title">Inspiration has no Borders</h2>
               <p class="portfolio-content">Веб-сайт</p>
             </a>
           </li>
           <li>
             <a href="" class="portfolio-link">
-              <img
-                src="./images/portfolio/magazine.jpg"
-                alt="ноутбук"
-                width="370"
-                height="294"
-              />
+              <img src="./images/portfolio/magazine.jpg" alt="ноутбук" width="370" height="294" />
               <h2 class="portfolio-title">Издание Limited Edition</h2>
               <p class="portfolio-content">Дизайн</p>
             </a>
           </li>
           <li>
             <a href="" class="portfolio-link">
-              <img
-                src="./images/portfolio/labeltag.jpg"
-                alt="ноутбук"
-                width="370"
-                height="294"
-              />
+              <img src="./images/portfolio/labeltag.jpg" alt="ноутбук" width="370" height="294" />
               <h2 class="portfolio-title">Проект LAB</h2>
               <p class="portfolio-content">Маркетинг</p>
             </a>
@@ -170,16 +136,22 @@
     <!-- /.main -->
 
     <footer class="footer">
-      <a href="/">WebStudio </a>
+      <a class="logo link" href="./index.html"><span class="accent">Web</span>Studio</a>
       <address>
-        <ul>
+        <ul class="list">
           <li>
-            <a href="https://goo.gl/maps/51sRgcLbkEEGanM38"
+            <a class="footer-contact-link adress link" href="https://goo.gl/maps/51sRgcLbkEEGanM38"
               >г. Киев, пр-т Леси Украинки, 26</a
             >
           </li>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li>
+            <a class="footer-contact-link link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="footer-contact-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
         </ul>
       </address>
     </footer>
