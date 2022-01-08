@@ -9,7 +9,6 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
   color: var(--main-text-color);
   letter-spacing: 0.03em;
 }
@@ -86,7 +85,7 @@ body {
 }
 .advant-descr {
   font-size: 14px;
-  line-height: 1, 71;
+  line-height: 1.71;
   color: var(--second-text-color);
 }
 
@@ -129,4 +128,39 @@ body {
 
 .footer-contact-link.adress {
   color: var(--white-color);
+}
+
+.footer-contact-link:hover,
+.footer-contact-link:focus {
+  color: var(--accent-color);
+}
+
+/* FILTERS */
+.portfolio-button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  background-color: var(--background-second-color);
+  border: none;
+  cursor: pointer;
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+/* PROJECTS */
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-text-color);
+}
+.portfolio-content {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--second-text-color);
 }
